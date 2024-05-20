@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+div h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+div:hover{
+    h1{
+        font-size: 60px;
+        color: red;
+    }
+
+    border: 5px solid red;
+}
+
+
+
